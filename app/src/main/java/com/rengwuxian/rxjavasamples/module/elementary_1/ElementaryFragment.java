@@ -33,6 +33,7 @@ public class ElementaryFragment extends BaseFragment {
     @Bind(R.id.swipeRefreshLayout) SwipeRefreshLayout swipeRefreshLayout;
     @Bind(R.id.gridRv) RecyclerView gridRv;
 
+    //fenni
     ZhuangbiListAdapter adapter = new ZhuangbiListAdapter();
     Observer<List<ZhuangbiImage>> observer = new Observer<List<ZhuangbiImage>>() {
         @Override
